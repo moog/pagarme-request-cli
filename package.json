@@ -2,14 +2,23 @@
   "name": "pagarme-request-cli",
   "version": "0.0.1",
   "description": "A simple CLI http requester to verify the response from local pagarme API.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "./node_modules/eslint/bin/eslint.js './src/**/*.js'"
+  },
   "repository": "git@github.com:MateusMoog/pagarme-request-cli.git",
   "author": "Mateus Moog <mateus.moog@gmail.com>",
   "license": "GPL 3.0",
   "dependencies": {
-    "commander": "^2.11.0",
-    "pagarme": "^3.1.2",
-    "ramda": "^0.24.1",
-    "superagent": "^3.6.1"
+    "commander": "2.11.0",
+    "pagarme": "3.1.2",
+    "ramda": "0.24.1",
+    "superagent": "3.6.1"
+  },
+  "devDependencies": {
+    "eslint": "4.8.0",
+    "eslint-config-pagarme-base": "2.0.0",
+    "eslint-plugin-import": "2.7.0"
   }
 }
