@@ -1,0 +1,15 @@
+{
+  "name": "pagarme-request-cli",
+  "version": "0.0.1",
+  "description": "A simple CLI http requester to verify the response from local pagarme API.",
+  "main": "index.js",
+  "repository": "git@github.com:MateusMoog/pagarme-request-cli.git",
+  "author": "Mateus Moog <mateus.moog@gmail.com>",
+  "license": "GPL 3.0",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "pagarme": "^3.1.2",
+    "ramda": "^0.24.1",
+    "superagent": "^3.6.1"
+  }
+}
